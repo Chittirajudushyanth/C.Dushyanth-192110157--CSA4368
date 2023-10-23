@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>login</title>
+</head>
+<style>
+body {
+  background-image: url('https://storage.googleapis.com/kx-live-ih/images/Online_Insurance-min.2e16d0ba.fill-800x450.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+           h1 {
+            text-align: center;
+            color: #fff; 
+            background-color: rgba(0, 0, 0, 0.5); 
+            padding: 20px;
+        }
+        form {
+            max-width: 400px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.8);
+            border-radius: 10px;
+        }
+            input[type="account"] {
+            color: #fff;
+            background-color: #0074d9;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        input[type="account"]:hover {
+            background-color: #0056b3;
+        }
+</style>
+    <center><h1>Online Insurance Management System</h1>
+    <form action="reservation_process.php" method="POST">
+        <label for="name">Name:</label>
+        <input type="text" name="name" required><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" name="email" required><br><br>
+
+        <label for="ph no">ph no:</label>
+        <input type="ph no" name="ph no" required><br><br>
+
+        <label for="date">Date:</label>
+        <input type="date" name="date" required><br><br>
+
+        <label for="type">select type:</label>
+        <select name="type">
+        <option value="vehicle">vehicle</option>
+        <option value="health">health</option>
+        <!--add more type options as needed-->
+        </select><br><br>
+
+<a href="account.html"> account</a></center>   
+
+    </form>
+</body>
+</html>
