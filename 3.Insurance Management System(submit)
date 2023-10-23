@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Insurance Type and Amount</title>
+    <style>
+        body {
+            background-image: url('https://www.yoh.com/hs-fs/hubfs/insurance%20blog%20imagery.jpg?width=990&name=insurance%20blog%20imagery.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+        h1 {
+            text-align: center;
+            color: #fff; 
+            background-color: rgba(0, 0, 0, 0.5); 
+            padding: 20px;
+        }
+        form {
+            max-width: 400px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: rgba(220, 230, 255, 0.8);
+            border-radius: 10px;
+        }
+        input[type="submit"] {
+            color: #fff;
+            background-color: #0074d9;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <h1>Insurance Type and Amount</h1>
+
+    <form action="next_website.php" method="post">
+        <label for="insuranceType1">Insurance Type 1:</label>
+        <input type="text" id="insuranceType1" name="insuranceType1" required><br>
+
+        <label for="insuranceAmount1">Amount for Type 1:</label>
+        <input type="number" id="insuranceAmount1" name="insuranceAmount1" required><br>
+
+        <label for="insuranceType2">Insurance Type 2:</label>
+        <input type="text" id="insuranceType2" name="insuranceType2" required><br>
+
+        <label for="insuranceAmount2">Amount for Type 2:</label>
+        <input type="number" id="insuranceAmount2" name="insuranceAmount2" required><br>
+
+        <!-- Add more insurance types and amounts as needed -->
+
+       <a href="confirm.html"> confirm</a>
+    </form>
+</body>
+</html>
