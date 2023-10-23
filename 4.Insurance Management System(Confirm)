@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Insurance Confirmation</title>
+    <style>
+        body {
+            background-image: url('https://irp.cdn-website.com/5abfb700/dms3rep/multi/5+Ways+to+Say+Thank+You.png');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+        h1 {
+            text-align: center;
+            color: #fff; 
+            background-color: rgba(0, 0, 0, 0.5); 
+            padding: 20px;
+        }
+        p {
+            text-align: center;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <h1>Insurance Confirmation</h1>
+
+    <p>Your insurance has been confirmed!</p>
+
+    <p>Add any other insurance or actions here as needed.</p>
+
+    <p>Thank you for choosing our services.</p>
+</body>
+</html>
